@@ -166,7 +166,8 @@ blockquote {
 .banner .header,
 .container .header {
     background: #ffffffe6;
-    padding: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 img.background {
