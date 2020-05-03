@@ -1,0 +1,7 @@
+favicon: "img/favicon.ico"
+brand: brand.png
+menu:
+  - title: About
+    url: about
+    intro: "About me."
+    icon: ""
