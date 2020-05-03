@@ -178,7 +178,8 @@ img.background {
     z-index: -1;
     width: 100%;
     width: auto;
-    height: 100vh;
+    height: 90vh;
+    padding-top: 10vh;
 }
 
 .banner.not-in-view .firefly,
@@ -194,7 +195,7 @@ img.background {
 }
 
 h1 {
-    color: #4e5354;
+    color: #151617;
     font-weight: bold;
 }
 
