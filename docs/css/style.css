@@ -207,7 +207,8 @@ h1,h2,h3,h4 {
 
 h2 {
     font-size: 1.8em;
-    font-weight: lighter;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -296,7 +297,7 @@ nav {
 }
 
 .btn.btn-call-to-action {
-    font-size: 2em !important;
+    font-size: 1.5em !important;
     background: #6e4fb7;
     border-radius: 10px;
 }
