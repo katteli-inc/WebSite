@@ -2,20 +2,39 @@
 layout: index
 ---
 <!-- Landing banner -->
-{% html div id="landing-section" class="container-fluid text-center p-0" style="padding-bottom: 2em !important" %}
-{% html div class="banner in-view-watcher" %} 
+{% html div id="landing-section" class="container-fluid text-center p-0" style="overflow: hidden; height: 100vh; margin-bottom: 50px;" %}
+{% html div class="banner in-view-watcher" %}
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div> 
 {% html div class="header" %}
-# Providing Software Quality Assurance
-# Services To Our Customers
-## by making testing better for the whole world
+<img src="/img/lines.png" alt="banner" class="background" style="width: 60%; opacity: 0.15;">
+
+# Enterprise
+# Software Quality Assurance
+
+<h2 style="text-align: left; color: #7696a0; padding-top: 0.5em; font-weight: 600;">making testing better for the whole world</h2>
+<button type="button" class="btn btn-call-to-action center" style="background: #59adc6; margin-top: 1em; margin-right: 1em;">
+    <a href="#services-section">Get To Know Us</a>
+</button>
+<button type="button" class="btn btn-call-to-action center" style="background: #bc343e; margin-top: 1em;">
+    <a href="#contact-section">Get In Touch</a>
+</button>
 {% endhtml %}
 
-<img src="/img/index-banner.jpg" alt="banner" class="background">
 {% endhtml %}
+<img src="/img/testing.jpg" alt="banner" style="width: 100vh;">
 {% endhtml %}
 
 <!-- Services Section -->
-{% html div class="container" id="services-section" %}
+{% html div class="container" id="services-section" style="margin-top: -50px; border-top: 1px solid;" %}
 
 {% html div class=row %}
 # Our Services
@@ -33,7 +52,7 @@ layout: index
 {% endhtml %}
 
 {% html div class=row style="padding-top: 5vh;" %}
-{% html div class=col-md-6 %}
+{% html div class=col-md-6 style="border-right: 2px solid #5b95c3;" %}
 <img src="/img/requirements.jpg" alt="requirements" style="width: 50%; margin: auto;">
 
 ## Requirements
@@ -61,7 +80,7 @@ and easily maintainable tests.
 {% endhtml %}
 
 {% html div class=row style="padding-top: 5vh;" %}
-{% html div class=col-md-6 %}
+{% html div class=col-md-6 style="border-right: 2px solid #3bdfbf;" %}
 <img src="/img/specification.jpg" alt="requirements" style="width: 50%; margin: auto;">
 
 ## Specifications
@@ -74,7 +93,7 @@ for suites that cover a given feature. This allows for our customers
 to easily understand what each test is testing and how it tests it.
 {% endhtml %}
 
-{% html div class=col-md-6" %}
+{% html div class=col-md-6 %}
 <img src="/img/report.jpg" alt="requirements" style="width: 50%; margin: auto;">
 
 ## Reports

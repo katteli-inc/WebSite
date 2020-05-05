@@ -151,10 +151,10 @@ blockquote {
 }
 
 .banner {
-    min-height: 100vh;
-    padding: 20vh 0 10vh 0;
-    background: white;
-    color: black;
+    min-height: 50vh;
+    padding-top: 10vh;
+    background: #385964;
+    color: white;
     padding-bottom: 1em;
     position: relative !important;
     overflow: hidden;
@@ -163,24 +163,49 @@ blockquote {
     font-weight: 300;
 }
 
+.banner.not-in-view .firefly,
+.banner.not-in-view .firefly::before,
+.banner.not-in-view .firefly::after {
+    animation-play-state: paused;
+}
+
+.banner .firefly,
+.banner .firefly::before,
+.banner .firefly::after {
+    transform: translateZ(0);
+}
+
+.banner .header {
+    margin: auto;
+    width: fit-content;
+    text-align: left;
+}
+
+.banner h1, h2, h3 {
+    text-align: left;
+}
+
+.banner h1 {
+    color: white;
+}
+.banner h2 {
+    color: #7696a0;
+    font-weight: normal;
+}
+
+
 .banner .header,
 .container .header {
-    background: #ffffffe6;
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 img.background {
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 0;
     right: 0;
     margin: auto;
     z-index: -1;
-    width: 100%;
-    width: auto;
-    height: 90vh;
-    padding-top: 10vh;
 }
 
 .banner.not-in-view .firefly,
@@ -299,7 +324,7 @@ nav {
 .btn.btn-call-to-action {
     font-size: 1.5em !important;
     background: #6e4fb7;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn.btn-call-to-action a {
