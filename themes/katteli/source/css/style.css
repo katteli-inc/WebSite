@@ -178,6 +178,7 @@ blockquote {
 .banner .header {
     margin: auto;
     width: fit-content;
+    width: max-content;
     text-align: left;
 }
 
@@ -196,7 +197,7 @@ blockquote {
 
 .banner .header,
 .container .header {
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 5vh;
 }
 
@@ -322,7 +323,7 @@ nav {
 }
 
 .btn.btn-call-to-action {
-    font-size: 1.5em !important;
+    font-size: 1.3em !important;
     background: #6e4fb7;
     border-radius: 5px;
 }
