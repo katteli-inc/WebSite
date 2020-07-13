@@ -1,0 +1,477 @@
+html, body {
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.text-primary {
+  color: #425066;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+blockquote {
+    padding-left: 2em;
+    border-left: 5px solid #dee2e6;
+    font-weight: 300;
+}
+
+#sidebar {
+    padding-left: 15px;
+    z-index: 999;
+    transition: all 0.3s;
+    color: #50749c;
+}
+
+.jump {
+    position: fixed;
+    bottom: 0.5em;
+    right: 1em;
+    color: #6a6a6a;
+}
+
+.jump:active,
+.jump:focus,
+.jump:hover {
+    color: #49c19d;
+    text-decoration: none;
+}
+
+.post {
+}
+
+.post-header {
+    border-bottom: 2px solid #54e5ae;
+    margin-bottom: 2em;
+}
+
+.post-summary h1 {
+    font-weight: bold;
+    color: #ff8c16;
+    text-align: start;
+    padding-bottom: 1em;
+    font-family: Ubuntu;
+}
+
+.post-summary p {
+    display: contents;
+}
+
+.post-body {
+    margin: auto;
+    font-size: 1.1em;
+}
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4 {
+    text-align: start;
+    font-weight: bold;
+    padding: 2em 0 0;
+    padding-bottom: 0.5em;
+    margin: -1em 0 0;
+}
+.post-body h2 {
+    color: #ef8b28;
+}
+.post-body h3 {
+    color: #a1d6e1;
+}
+
+.post-summary {
+    text-align: start;
+}
+
+.post-image {
+    position: relative;
+}
+
+.post-image img {
+    max-height: 500px;
+    max-width: 90%;
+}
+
+.post-image-credit {
+    position: absolute;
+    bottom: 0px;
+    font-size: 8px;
+    right: 0;
+}
+
+.post-image-credit a {
+    color: grey;
+}
+
+.post-share.btn-group a {
+    color: #49c19d;
+    padding: 5px;
+    font-size: 0.7em;
+}
+
+.post-share.btn-group a:hover {
+    color: inherit;
+}
+
+.post-metadata.row {
+   width: 100%;
+   font-size: 1em;
+}
+
+.post-author {
+}
+
+.post-author .author-title {
+    font-weight: bold;
+    padding-right: 0.65em;
+}
+
+.post-author .author-name,
+.post-author .authored-date {
+    font-weight: bold;
+    color: #adadad;
+}
+.post-author .author-name {
+    padding-right: 2em;
+}
+
+.post-share .caption {
+    font-weight: bold;
+    line-height: 2em;30px
+    padding-right: 0.5em;
+}
+
+.divider {
+    width: 100%;
+    border-top: 2px solid #54e5ae;
+    padding-top: 5px;
+    margin-top: 2em;
+}
+
+.banner {
+    min-height: 50vh;
+    padding-top: 10vh;
+    background: #385964;
+    color: white;
+    padding-bottom: 1em;
+    position: relative !important;
+    overflow: hidden;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    font-weight: 300;
+}
+
+.banner.not-in-view .firefly,
+.banner.not-in-view .firefly::before,
+.banner.not-in-view .firefly::after {
+    animation-play-state: paused;
+}
+
+.banner .firefly,
+.banner .firefly::before,
+.banner .firefly::after {
+    transform: translateZ(0);
+}
+
+.banner .header {
+    margin: auto;
+    width: fit-content;
+    width: max-content;
+    text-align: left;
+}
+
+.banner h1, h2, h3 {
+    text-align: left;
+}
+
+.banner h1 {
+    color: white;
+}
+.banner h2 {
+    color: #7696a0;
+    font-weight: normal;
+}
+
+
+.banner .header,
+.container .header {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+img.background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.banner.not-in-view .firefly,
+.banner.not-in-view .firefly::before,
+.banner.not-in-view .firefly::after {
+    animation-play-state: paused;
+}
+
+.banner .firefly,
+.banner .firefly::before,
+.banner .firefly::after {
+    transform: translateZ(0);
+}
+
+h1 {
+    color: #151617;
+    font-weight: bold;
+}
+
+h1,h2,h3,h4 {
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+figure.highlight table {
+    font-size: 1.3em;
+}
+
+.content {
+    min-height: calc(100vh - 80px);
+}
+
+.text-success {
+    color: #77bd87 !important;
+}
+
+.text-muted {
+    color: #b3b3b3 !important;
+}
+
+nav {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.nav-menu {
+    text-align: center;
+}
+
+.navbar {
+    background: white;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md {
+        padding: 0 10vw;
+    }
+}
+.navbar-toggler-icon {
+    width: inherit;
+    height: inherit;
+    color: #495057;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #5aadc6;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #4e5354;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    padding-left: 1.5rem !important;
+    color: inherit !important;
+}
+
+.nav-link:hover > i,
+.nav-link:focus > i,
+.nav-link:active > i {
+    color: #77bd87;
+}
+
+.navbar-toggler-icon:hover,
+.navbar-toggler-icon:focus,
+.navbar-toggler-icon:active {
+    color: #77bd87;
+}
+
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+}
+
+.center {
+    margin: auto;
+}
+
+.btn.btn-call-to-action {
+    font-size: 1.3em !important;
+    background: #6e4fb7;
+    border-radius: 5px;
+}
+
+.btn.btn-call-to-action a {
+    color: white;
+}
+
+.btn.btn-call-to-action a:hover,
+.btn.btn-call-to-action a:focus,
+.btn.btn-call-to-action a:active
+{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.btn {
+    background: none;
+    border: none;
+    padding: 0.375rem 1rem;
+}
+
+.btn a {
+    color: inherit;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    color: #949495;
+    outline: none !important;
+    box-shadow: none;
+}
+
+/**
+ * container
+ */
+
+.container {
+    position: relative;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.container h1 {
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.container h2, h3 {
+    width: 100%;
+}
+
+.container-narrow {
+  margin: 0 auto;
+  max-width:970px;
+}
+
+.container-narrow > footer {
+  margin-top: 20px;
+  text-align: center;
+}
+.container-narrow > footer p {
+  padding: 5px;
+  display: inline-block;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+a.header-anchor {
+  color: inherit;
+}
+/**
+ * navbar
+ */
+.navbar-default {
+  background-color: white;
+  border-bottom:  1px solig grey;
+}
+
+.navbar-brand > img {
+  height: 32px;
+}
+
+/**
+ * other
+ */
+body {
+  position: relative;
+  color: #2c3e50;
+}
+
+/**
+ * 
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: ""; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 0px) {
+  h1 {font-size:1.5rem;} /*1rem = 16px*/
+  h2, h3 {font-size: 1rem;}
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  h1 {font-size:2rem;} /*1rem = 16px*/
+  h2 {font-size: 1rem;}
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  h1 {font-size:2rem;} /*1rem = 16px*/
+  h2, h3 {font-size: 1.5rem;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {font-size:2.5rem;} /*1rem = 16px*/
+  h2, h3 {font-size: 1.5rem;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {font-size:3rem;} /*1rem = 16px*/
+  h2, h3 {font-size: 1.5rem;}
+}
+
