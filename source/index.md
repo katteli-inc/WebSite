@@ -13,7 +13,7 @@ layout: index
 <div class="firefly"></div>
 <div class="firefly"></div>
 <div class="firefly"></div>
-<div class="firefly"></div> 
+<div class="firefly"></div>
 {% html div class="header" %}
 <img src="/img/lines.png" alt="banner" class="background" style="width: 60%; opacity: 0.15;">
 
@@ -71,7 +71,7 @@ as help testers verify that feature implementation meets the requirements.
 
 ## Test Cases
 
-Test cases verify one or more feature requirements. Most of the time, 
+Test cases verify one or more feature requirements. Most of the time,
 writing a good test is not an easy task. Writing a maintainable test
 is even harder. So many times tests become unreadable and hard
 to debug when they fail. We provide our customers well documented
@@ -85,9 +85,9 @@ and easily maintainable tests.
 
 ## Specifications
 
-Any well written test must be documented. A formal test case documentation 
+Any well written test must be documented. A formal test case documentation
 is provided by a test specification. All test cases that we develop
-for customers have documentation embedded within a test 
+for customers have documentation embedded within a test
 so that documentation and code stay together. We provide full test specifications
 for suites that cover a given feature. This allows for our customers
 to easily understand what each test is testing and how it tests it.
@@ -120,7 +120,7 @@ requirements have been met and which are still left to complete.
 
 {% html div class=row" %}
 {% html div class=col-md-6 style="padding-top: 100px;" %}
-### Introducing TestFlows 
+### Introducing enterprise quality
 ### open-source testing framework
 <img src="/img/testflows_logo.png" alt="TestFlows Logo" style="width: 50%; margin: auto; display: block;">
 <button type="button" class="btn btn-call-to-action center" style="margin-top: 40px; display: block; background: #3bdfbe;">
@@ -141,10 +141,10 @@ requirements have been met and which are still left to complete.
 # About Us
 
 ### Katteli Inc. was founded in 2017 in Ottawa, Canada. In 2020 the company was restuctured
-### to focus on providing full-service software quality assurance to 
-### our first client. We are a small team dedicated to our customers. 
+### to focus on providing full-service software quality assurance to
+### our first client. We are a small team dedicated to our customers.
 ### Our experience ranges from testing memory chips to databases and operating systems.
-### We are always looking to grow, improve and innovate.     
+### We are always looking to grow, improve and innovate.
 {% endhtml %}
 
 {% html div class=row style="padding-top: 5vh;" %}
@@ -162,7 +162,7 @@ requirements have been met and which are still left to complete.
 
 {% html div class=row" %}
 {% html div class=col-md-6 style="padding-top: 5vh;" %}
-### We are always happy to talk to you. 
+### We are always happy to talk to you.
 ### Don't be shy and reach out to us!
 <br>
 
